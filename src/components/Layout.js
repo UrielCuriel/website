@@ -35,16 +35,16 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="mask-icon"
           href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
-          color="#ff4400"
+          color="#102A43"
         />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#102A43" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/og-image.png`}
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
