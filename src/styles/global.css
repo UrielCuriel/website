@@ -1,0 +1,54 @@
+html {
+  @apply bg-neutral-1000 font-body;
+
+  scrollbar-color: #38bec9 transparent;
+  scrollbar-width: thin;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-display;
+}
+small {
+  @apply font-body;
+  &::before {
+    content: "//";
+  }
+  &::after {
+    content: "_";
+    animation: blink 0.7s linear infinite;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.bg-translucent {
+  backdrop-filter: blur(5px);
+}
