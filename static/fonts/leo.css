@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'Leo Rounded Pro';
-    src: url('LeoRoundedProThin.woff2') format('woff2'),
-        url('LeoRoundedProThin.woff') format('woff');
+    src: url('https://urielcuriel.dev/fonts/LeoRoundedProThin.woff2') format('woff2'),
+        url('https://urielcuriel.dev/fonts/LeoRoundedProThin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Leo Rounded Pro';
-    src: url('LeoRoundedProRegular.woff2') format('woff2'),
-        url('LeoRoundedProRegular.woff') format('woff');
+    src: url('https://urielcuriel.dev/fonts/LeoRoundedProRegular.woff2') format('woff2'),
+        url('https://urielcuriel.dev/fonts/LeoRoundedProRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Leo Rounded Pro';
-    src: url('LeoRoundedProLight.woff2') format('woff2'),
-        url('LeoRoundedProLight.woff') format('woff');
+    src: url('https://urielcuriel.dev/fonts/LeoRoundedProLight.woff2') format('woff2'),
+        url('https://urielcuriel.dev/fonts/LeoRoundedProLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
