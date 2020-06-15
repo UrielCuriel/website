@@ -1,12 +1,29 @@
 [build]
-  publish = "public"
-  command = "npm run build"
-  functions = "lambda"
+publish = "public"
+command = "npm run build"
+functions = "lambda"
+
 [build.environment]
-  NODE_VERSION = "12"
-  YARN_VERSION = "1.22.4"
-  YARN_FLAGS = "--no-ignore-optional"
+NODE_VERSION = "12"
+YARN_VERSION = "1.22.4"
+YARN_FLAGS = "--no-ignore-optional"
+
 [[headers]]
 for = "/fonts/*"
+
 [headers.values]
 Access-Control-Allow-Origin = "**"
+
+[[headers]]
+for = "/*.woff"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/font-woff"
+
+[[headers]]
+for = "/*.woff2"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/font-woff2"
