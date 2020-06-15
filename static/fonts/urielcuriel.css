@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'urielcuriel';
-    src: url('urielcurielnormal.woff2') format('woff2'),
-        url('urielcurielnormal.woff') format('woff');
+    src: url('https://urielcuriel.dev/fonts/urielcurielnormal.woff2') format('woff2'),
+        url('https://urielcuriel.dev/fonts/urielcurielnormal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
